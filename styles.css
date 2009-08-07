@@ -1,0 +1,200 @@
+body
+{
+  background: #a5b5c3 url(images/layout/body-bg.gif) repeat-x;
+  font-family: "Trebuchet MS";
+  font-size: 13px;
+  color: #000;
+  text-align: center;
+}
+
+a
+{
+  color: #626d77;
+}
+
+a:hover
+{
+}
+
+a:active
+{
+}
+
+a:visited
+{
+}
+
+img
+{
+  border: 0px;
+}
+
+h1, h2
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 img
+{
+  margin-right: 20px;
+}
+
+.content
+{
+  width: 912px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff url(images/layout/content-bg.gif);
+  text-align: left;
+}
+.content .pad
+{
+  min-height: 200px;
+  padding: 15px;
+}
+.contentFooter
+{
+  background: url(images/layout/content-bg-b.gif) bottom repeat-x;
+}
+.contentFooterLeft
+{
+  background: url(images/layout/content-bg-bl.gif) bottom left no-repeat;
+}
+.contentFooterRight
+{
+  background: url(images/layout/content-bg-br.gif) bottom right no-repeat;
+  height: 6px;
+  overflow: hidden;
+}
+
+.specialContentFooter
+{
+  background: url(images/layout/footer-bg-tile.gif) bottom repeat-x;
+}
+.specialContentFooterLeft
+{
+  background: url(images/layout/footer-bg-left.gif) bottom left no-repeat;
+}
+.specialContentFooterRight
+{
+  background: url(images/layout/footer-bg-right.gif) bottom right no-repeat;
+  height: 253px;
+  overflow: hidden;
+}
+.specialContentFooter .pad
+{
+  padding: 6px 0px 6px 6px;
+}
+
+.header
+{
+  background: #e9e9e9 url(images/layout/header-bg-tile.gif) repeat-x;
+}
+.header h1
+{
+  margin-left: 25px;
+  margin-top: 17px;
+}
+.headerLeft
+{
+  background: url(images/layout/header-bg-left.gif) top left no-repeat;
+}
+.headerRight
+{
+  background: url(images/layout/header-bg-right.gif) top right no-repeat;
+  height: 65px;
+  overflow: hidden;
+}
+.header .sectionsList
+{
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  padding-right: 20px;
+  padding-top: 32px;
+  list-style-type: none;
+  font-size: 16px;
+}
+.header .sectionsList li
+{
+  display: inline;
+  margin-left: 20px;
+}
+.header .sectionsList #selected
+{
+  font-weight: bold;
+}
+.header .sectionsList a, .header .sectionsList a:active, .header .sectionsList a:visited
+{
+  color: #000;
+  text-decoration: none;
+}
+.header .sectionsList a:hover
+{
+  text-decoration: underline;
+}
+
+.footNote
+{
+  color: #292d31;
+  margin: 15px;
+  font-size: 12px;
+  text-shadow: #e0e6ea 0px 1px 0px;
+}
+
+.clear
+{
+  clear: both;
+  height: 1px;
+  overflow: hidden;
+}
+
+.iPhoneVertical
+{
+  float: right;
+  overflow: hidden;
+  width: 280px;
+  height: 617px;
+  background: url(images/layout/iphone.jpg) no-repeat;
+  margin-left: 20px;
+}
+.iPhoneVertical div
+{
+  overflow: hidden;
+  margin-left: 26px;
+  margin-top: 88px;
+  width: 230px;
+  height: 346px;
+}
+
+.featuresList
+{
+  list-style-type: none;
+  margin: 20px 0px 20px 0px;
+  padding: 0px;
+}
+.featuresList li
+{
+  clear: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.featuresList img
+{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.screenshotsList
+{
+  float: right;
+  padding-left: 20px;
+  list-style-type: none;
+}
+.screenshotsList li
+{
+  float: left;
+  margin-right: 20px;
+}
