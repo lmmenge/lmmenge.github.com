@@ -3,10 +3,6 @@ layout: content
 title: Games
 ---
 
-{% for post in site.posts %}
-  <div>{{ post.title }}</div>
-  <a href="{{ post.url }}"/>POST LINK</a>
-  <div>Last Update: {{ post.date | date_to_xmlschema }}</div>
-  <div>Post ID: http://tom.preston-werner.com{{ post.id }}</div>
-  <div>{{ post.content | xml_escape }}</div>
+{% for post in site.categories.games %}
+  <a href="{{ post.url }}"/><div>{{ post.title }}</div></a>
 {% endfor %}
