@@ -150,6 +150,34 @@ h2 img
   overflow: hidden;
 }
 
+.productList
+{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.productList a
+{
+  text-decoration: none;
+}
+.productList a:hover
+{
+  text-decoration: underline;
+}
+.productList li
+{
+  text-align: center;
+  float: left;
+  width: 100px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.productList li span
+{
+  display: block;
+  text-align: center;
+}
+
 .iPhoneVertical
 {
   float: right;
