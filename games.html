@@ -1,0 +1,12 @@
+---
+layout: content
+title: Home
+---
+
+{% for post in site.posts %}
+  <div>{{ post.title }}</div>
+  <a href="http://tom.preston-werner.com{{ post.url }}"/>POST LINK</a>
+  <div>Last Update: {{ post.date | date_to_xmlschema }}</div>
+  <div>Post ID: http://tom.preston-werner.com{{ post.id }}</div>
+  <div>{{ post.content | xml_escape }}</div>
+{% endfor %}
