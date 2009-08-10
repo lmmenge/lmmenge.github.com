@@ -29,7 +29,7 @@ img
   border: 0px;
 }
 
-h1, h2
+h1, h2, h3, h4
 {
   margin: 0px;
   padding: 0px;
@@ -38,6 +38,22 @@ h1, h2
 h2 img
 {
   margin-right: 20px;
+}
+
+h3
+{
+  margin-top: 10px;
+}
+h3 span
+{
+  font-size: 11px;
+  color: #a5b5c3
+}
+
+p
+{
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
 }
 
 .content
@@ -225,4 +241,39 @@ h2 img
 {
   float: left;
   margin-right: 20px;
+}
+
+.blogPost
+{
+  margin-bottom: 20px;
+}
+.blogPost p
+{
+  margin-top: 5px;
+}
+.blogPost h3
+{
+  border-bottom: 1px solid #a5b5c3;
+}
+.blogPost h3 a
+{
+  text-decoration: none;
+}
+.blogPost h4
+{
+  font-size: 12px;
+}
+
+.blogArchive
+{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  border-top: 1px solid #a5b5c3;
+}
+.blogArchive li span
+{
+  font-size: 11px;
+  color: #a5b5c3;
+  font-weight: bold;
 }
