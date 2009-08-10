@@ -6,11 +6,15 @@ title: Blog
 <h2>Blog</h2>
 
 {% assign first_post = site.posts.first %}
+{% if first_post %}
 <div class="blogPost">
   <h3><a href="{{ first_post.url }}">{{ first_post.title }}</a> <span> - {{ first_post.date | date_to_string }}</span></h3>
   <h4>By {{ first_post.author }} on {{ first_post.category }}</h4>
   {{ first_post.content }}
 </div>
+{% else %}
+<p>No posts as of yet.</p>
+{% endif %}
 
 <h3>Archive</h3>
 <ul class="blogArchive">
