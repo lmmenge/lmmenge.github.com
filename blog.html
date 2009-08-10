@@ -17,8 +17,12 @@ title: Blog
 {% endif %}
 
 <h3>Archive</h3>
+{% if site.posts != empty %}
 <ul class="blogArchive">
 {% for post in site.posts %}
   <li><a href="{{ post.url }}">{{ post.title }}</a> <span> - {{ post.date | date_to_string }}</span></li>
 {% endfor %}
 </ul>
+{% else %}
+<p>No posts as of yet.</p>
+{% endif %}
