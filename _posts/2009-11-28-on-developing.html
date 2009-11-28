@@ -1,0 +1,52 @@
+---
+layout: post
+title: On Developing
+author: Lucas Menge
+category: Misc
+---
+
+<p>
+  So right now I'm working alongside <a href="http://twitter.com/lmarinho" target="_blank">Lucas Marinho</a> and <a href="http://twitter.com/pedrohla" target="_blank">Pedro Almeida</a> on some new concepts
+  for another game of ours. <b>Two</b>, actually! I can't talk much about it.
+  But it's been fun, so far. To add to that, I even have another project of my own that uses
+  the same basic engine as the games I'm developing alongside the dinamic duo. Honestly, I don't know what I'm
+  more excited about!
+</p>
+<h4>Undead Attack! Pinball</h4>
+<p>
+  <img src="/images/content/undeadpinball-icon.jpg" alt="Undead Attack! Pinball icon" class="leftImage"/>
+  We've submitted an update to the Worldwide and to the Lite version of <a href="http://www.attackpinball.com/" target="_blank">Undead Attack! Pinball</a>
+  to the app store this Thursday and I hope to see it up by next week or so. It's mostly bugfixes
+  and bringing the Lite version up to the full version in terms of features.
+  The Brazilian version is doing <b>great</b> as well and I've been loving every minute we spend
+  at the top of the Paid chart in the Brazilian App Store. I can only thank everyone so much for their continued
+  support. Non-stop 5-star ratings, top of the charts and being able to compete with NDrive and TomTom in terms
+  of gross revenue all togheter is something we hoped for, but didn't quite know if it'd happen.
+</p>
+<h4>About simultaneous development</h4>
+<p>
+  Developing two simultaneous prototypes is an interesting experience. We're sharing a common engine that was
+  mostly developed by yours truly. So we had to figure out how to share that code efficiently. The first
+  thought was a shared library - or in Apple's terms: a Framework. On the iPhone, however, you can't dynamically link
+  to a Framework, according to the SDK rules. However, Xcode provides ways of linking with a static library.
+  We aren't using that, because the base engine is being developed at full speed alongside t he main project,
+  so we just decided that, in order to make it easier for both parties involved in the coding to add/remove/fix
+  things in the main engine, we'd just make a repository for the engine and add the code itself to the main project.
+  That'd make debugging much more straightforward.
+</p>
+<p>
+  The thing I like the most about this whole experience, however, is that I can develop something on one end
+  and @lmarinho can develop something else on his end. We aren't too tied together like we were in UA!P.
+  In UA!P we had a big delay halfway through the project that was caused by him travelling to solve some family
+  business. No one in the rest of the team could move forward because he'd stayed in charge of the entire physics
+  of the game. And since that wasn't working so well at the time, we couldn't develop the pinball tables properly.
+</p>
+<p>
+  Now things are different. These projects have much smaller tasks for each and set up in a way that if one fails
+  to complete their task, then the other can take over.
+</p>
+<p>
+  Our main goal, as I see it, is to have <b>at least one</b> of these two games ready for prime time in Q1 2010.
+  I'm really excited about them and I hope that they'll be just as we intend them to be by that time.
+  My other smallish project is due this year. But more on that one in another blog post!
+</p>

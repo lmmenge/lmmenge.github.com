@@ -187,6 +187,18 @@ p
   overflow: hidden;
 }
 
+.leftImage
+{
+  float: left;
+  margin-right: 10px;
+}
+
+.rightImage
+{
+  float: right;
+  margin-left: 10px;
+}
+
 .productList
 {
   list-style-type: none;
