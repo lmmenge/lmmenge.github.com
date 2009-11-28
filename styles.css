@@ -159,6 +159,27 @@ p
   text-shadow: #e0e6ea 0px 1px 0px;
 }
 
+.contentColumn
+{
+  float: left;
+  width: 670px;
+}
+.tweetsColumn
+{
+  float: right;
+  width: 200px;
+}
+#twitter_update_list
+{
+  list-style-type: none;
+  margin: 15px 0px 0px 0px;
+  padding: 0px;
+}
+#twitter_update_list li
+{
+  margin-bottom: 10px;
+}
+
 .clear
 {
   clear: both;
