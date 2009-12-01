@@ -3,26 +3,37 @@ layout: content
 title: Home
 ---
 
-<h2>Latest Release</h2>
-{% assign first_post = site.categories.Releases.first %}
-{% if first_post %}
-<div class="blogPost">
-  <h3><a href="{{ first_post.url }}">{{ first_post.title }}</a> <span> - {{ first_post.date | date_to_string }}</span></h3>
-  <h4>By {{ first_post.author }} on {{ first_post.category }}</h4>
-  {{ first_post.content }}
-</div>
-{% else %}
-<p>No releases as of yet.</p>
-{% endif %}
+<div class="contentColumn">
+  <h2>Latest Release</h2>
+  {% assign first_post = site.categories.Releases.first %}
+  {% if first_post %}
+  <div class="blogPost">
+    <h3><a href="{{ first_post.url }}">{{ first_post.title }}</a> <span> - {{ first_post.date | date_to_string }}</span></h3>
+    <h4>By {{ first_post.author }} on {{ first_post.category }}</h4>
+    {{ first_post.content }}
+  </div>
+  {% else %}
+  <p>No releases as of yet.</p>
+  {% endif %}
 
-<h2>Latest Blog post</h2>
-{% assign first_post = site.posts.first %}
-{% if first_post %}
-<div class="blogPost">
-  <h3><a href="{{ first_post.url }}">{{ first_post.title }}</a> <span> - {{ first_post.date | date_to_string }}</span></h3>
-  <h4>By {{ first_post.author }} on {{ first_post.category }}</h4>
-  {{ first_post.content }}
+  <h2>Latest Blog post</h2>
+  {% assign first_post = site.posts.first %}
+  {% if first_post %}
+  <div class="blogPost">
+    <h3><a href="{{ first_post.url }}">{{ first_post.title }}</a> <span> - {{ first_post.date | date_to_string }}</span></h3>
+    <h4>By {{ first_post.author }} on {{ first_post.category }}</h4>
+    {{ first_post.content }}
+  </div>
+  {% else %}
+  <p>No blog posts yet.</p>
+  {% endif %}
 </div>
-{% else %}
-<p>No blog posts yet.</p>
-{% endif %}
+
+<div class="tweetsColumn" id="twitter_div">
+  <h2>Latest Tweets</h2>
+  <a href="http://www.twitter.com/lmmenge">Follow me!</a>
+  <ul id="twitter_update_list"></ul>
+</div>
+<div class="clear"></div>
+<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/lmmenge.json?callback=twitterCallback2&amp;count=10"></script>
