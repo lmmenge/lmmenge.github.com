@@ -245,6 +245,12 @@ p
   height: 346px;
 }
 
+.floatIcon {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
 .featuresList
 {
   list-style-type: none;
@@ -262,6 +268,16 @@ p
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+.featuresList .alt
+{
+  text-align: right;
+}
+.featuresList .alt img
+{
+  float: right;
+  margin-right: 0px;
+  margin-left: 10px;
 }
 
 .screenshotsList
