@@ -1,3 +1,69 @@
+<html>
+  <head>
+    <title>Promos</title>
+    <meta name="viewport" content="width=480; user-scalable=0;"/>
+    <style>
+      body {
+        background-color: #555555;
+        font-family: "Helvetica Neue";
+        font-size: 13px;
+        padding: 0px;
+        margin: 8px;
+        text-align: center;
+      }
+      
+      img {
+        border: 0px;
+      }
+      
+      .clear {
+        clear: both;
+        height: 1px;
+        overflow: hidden;
+      }
+      
+      .topPromo {
+        margin-bottom: 8px; 
+      }
+      
+      .leftPromo {
+        float: left;
+        width: 227px;
+        overflow: hidden;
+      }
+      
+      .rightPromo {
+        float: right;
+        width: 227px;
+        overflow: hidden;
+      }
+      
+      .footer {
+        margin: 16px;
+        color: #333;
+        text-shadow: #777 0px 1px;
+      }
+      
+      #localContent {
+        -webkit-transition-property: opacity;
+        -webkit-transition-duration: 1.0s;
+        -webkit-transition-timing-function: ease-in-out;
+      }
+      
+      #remoteContent {
+        opacity: 0;
+        overflow: hidden;
+        height: 0px;
+        -webkit-transition-property: opacity, height;
+        -webkit-transition-duration: 1.0s;
+        -webkit-transition-timing-function: ease-in-out;
+        position: absolute;
+        top: 72px;
+      }
+    </style>
+  </head>
+  <body onLoad="requestUpdatedData();">
+    
 <div class="topPromo">
   <a href="http://lmmenge.github.com"><img src="http://lmmenge.github.com/promo/PromoContainerBig.png" alt="First Promo"/></a>
 </div>
@@ -19,3 +85,5 @@
 <div class="footer">
   &copy; 2010 Whoever and Whatever
 </div>
+  </body>
+</html>
