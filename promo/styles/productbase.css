@@ -1,0 +1,83 @@
+body {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+  -webkit-text-size-adjust: none;
+}
+
+img {
+  border: 0px;
+}
+
+p {
+  margin: 0px 0px 10px 0px;
+}
+
+ul {
+  text-align: left;
+}
+
+.clear {
+  clear: both;
+  height: 1px;
+  overflow: hidden;
+}
+
+.container {
+  overflow: hidden;
+  padding: 10px;
+  max-width: 728px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header .icon {
+  float: left;
+  margin-right: 10px;
+}
+
+.header .logo {
+  margin-top: 6px;
+}
+
+.header div.logo {
+  padding-top: 8px;
+  font-size: 17px;
+  min-height: 28px;
+}
+
+.description {
+  text-align: justify;
+}
+
+.screenshots {
+  text-align: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.screenshots li {
+  display: inline;
+  margin-right: 10px;
+}
+.screenshots li img {
+  padding-top: 10px;
+}
+
+.buttons {
+  list-style-type: none;
+  margin: 6px 0px 0px 0px;
+  padding: 0px;
+}
+.buttons li {
+  float: left;
+  margin-right: 4px;
+}
