@@ -8,7 +8,7 @@
         font-size: 16px;
         font-size: 13px;
         padding: 0px;
-        margin: 10px;
+        margin: 0px;
         background: #c1cbd4 url('background.gif') repeat-x top;
       }
       
@@ -24,6 +24,7 @@
       
       .container {
         overflow: hidden;
+        padding: 10px;
         max-width: 748px;
         background: url('header.png') no-repeat top left;
         margin-left: auto;
@@ -80,6 +81,7 @@
       }
       
       .screenshots {
+        text-align: center;
         list-style-type: none;
         margin: 0px;
         padding: 0px;
@@ -87,9 +89,11 @@
         margin-right: auto;
       }
       .screenshots li {
-        float: left;
-        margin-right: 20px;
-        margin-top: 10px;
+        display: inline;
+        margin-right: 10px;
+      }
+      .screenshots li img {
+        padding-top: 10px;
       }
       
       .buttons {
@@ -109,8 +113,8 @@
         <img class="icon" src="icon.png"/>
         <img class="logo" src="logo.png"/>
         <ul class="buttons">
-          <li><a href="http://www.itunes.com/apps/twisthelper"><img src="../images/button-appstore.png" alt="App Store"/></a></li>
-          <li><a href="http://lmmenge.github.com/"><img src="../images/button-website.png" alt="Website"/></a></li>
+          <li><a href="new://www.itunes.com/apps/twisthelper"><img src="../images/button-appstore.png" alt="App Store"/></a></li>
+          <li><a href="new://lmmenge.github.com/"><img src="../images/button-website.png" alt="Website"/></a></li>
         </ul>
         <div class="clear"></div>
       </div>
