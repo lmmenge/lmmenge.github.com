@@ -1,7 +1,15 @@
 body {
-  background: #c1cbd4 url('background.gif') repeat-x top;
+  background: #000;
+  color: #fff;
 }
 
 .container {
-  background: url('header.png') no-repeat top left;
+  background: #731d67 url('tile.gif') 0px 2px;
+  max-width: 556px;
+  padding: 0px;
+}
+
+.headerBg {
+  background: url('header-bg.jpg') no-repeat top center;
+  padding: 10px;
 }

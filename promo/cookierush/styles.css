@@ -1,0 +1,14 @@
+body {
+  background: #000;
+}
+
+.container {
+  background: #f5a85b url('tile.gif') 0px 3px;
+  max-width: 556px;
+  padding: 0px;
+}
+
+.headerBg {
+  background: url('header-bg.png') no-repeat top center;
+  padding: 10px;
+}
