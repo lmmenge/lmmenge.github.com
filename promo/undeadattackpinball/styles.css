@@ -12,4 +12,5 @@ body {
 .headerBg {
   background: url('header-bg.jpg') no-repeat top center;
   padding: 10px;
+  padding-top: 175px;
 }
