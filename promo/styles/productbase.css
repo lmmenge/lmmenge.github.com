@@ -72,6 +72,11 @@ ul {
   padding-top: 10px;
 }
 
+.video {
+  text-align: center;
+  margin-top: 10px;
+}
+
 .buttons {
   list-style-type: none;
   margin: 6px 0px 0px 0px;
