@@ -10,7 +10,7 @@ body {
 }
 
 a {
-  color: #b0b0b0;
+  color: #777;
   text-decoration: none;
 }
 
@@ -19,15 +19,17 @@ a:hover {
 }
 
 a:active {
-  color: #b0b0b0;
+  color: #777;
 }
 
 a:visited {
-  color: #b0b0b0;
+  color: #777;
 }
 
 img {
   border: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 h1, h2, h3 {
@@ -37,7 +39,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   font-weight: normal;
   font-size: 31px;
 }
@@ -45,6 +47,11 @@ h2 {
   font-size: 21px;
   margin-bottom: 10px;
   font-weight: normal;
+}
+.body > h2 {
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: #777;
 }
 
 p {
@@ -73,10 +80,27 @@ p {
   text-align: left;
 }
 
+.picture600, .picture700 {
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px #bbb;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.picture600 img, .picture700 img {
+  float: left;
+}
+.picture600 {
+  height: 600px;
+}
+.picture700 {
+  height: 1560px;
+}
+
 .content {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0px 1px 3px #bbb;
+  margin-bottom: 10px;
 }
 .content .pad {
   padding: 20px;
