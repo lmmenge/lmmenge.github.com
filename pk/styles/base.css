@@ -1,0 +1,56 @@
+body {
+  background-color: #cbccce;
+  font-family: "Helvetica Neue";
+  font-size: 13px;
+  padding: 0px;
+  text-align: center;
+}
+
+img {
+  border: 0px;
+}
+
+.clear {
+  clear: both;
+  height: 1px;
+  overflow: hidden;
+  max-width: 984px;
+}
+
+.container {
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner {
+  margin: 4px 4px 16px 4px;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
+  background-color: #aaa;
+  background-position: top left;
+}
+
+.banner a {
+  -webkit-border-radius: 10px;
+  display: block;
+  height: 300px;
+}
+
+.leftPromo {
+  float: left;
+  overflow: hidden;
+}
+
+.rightPromo {
+  float: right;
+  overflow: hidden;
+}
+
+.footer {
+  margin: 4px;
+  color: #505050;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}

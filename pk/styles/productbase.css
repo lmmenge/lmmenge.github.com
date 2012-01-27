@@ -1,0 +1,116 @@
+body {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+  -webkit-text-size-adjust: none;
+}
+
+img {
+  border: 0px;
+}
+
+p {
+  margin: 0px 0px 10px 0px;
+}
+
+ul {
+  text-align: left;
+}
+
+.clear {
+  clear: both;
+  height: 1px;
+  overflow: hidden;
+}
+
+.container {
+  overflow: hidden;
+  padding: 10px;
+  max-width: 728px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header .icon {
+  float: left;
+  margin-right: 10px;
+  width: 72px;
+  height: 72px;
+  -webkit-box-shadow: 0px 2px 3px rgba(0,0,0, 0.45);
+  -webkit-border-radius: 11px;
+  border-radius: 11px;
+}
+
+.header .logo {
+  margin-top: 6px;
+}
+
+.header div.logo {
+  padding-top: 8px;
+  font-size: 17px;
+  min-height: 28px;
+}
+
+.description {
+  text-align: justify;
+}
+
+.screenshots {
+  text-align: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.screenshots li {
+  display: inline;
+  margin-right: 10px;
+}
+.screenshots li img {
+  padding-top: 10px;
+}
+
+.video {
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.buttons {
+  list-style-type: none;
+  margin: 6px 0px 0px 0px;
+  padding: 0px;
+}
+.buttons li {
+  float: left;
+  margin-right: 4px;
+}
+.buttons a {
+  display: block;
+  width: 102px;
+  height: 30px;
+}
+.buttons .appstoreButton {
+  background: url('../images/button-appstore.png') no-repeat;
+}
+.buttons .websiteButton {
+  background: url('../images/button-website.png') no-repeat;
+}
+@media screen and (-webkit-device-pixel-ratio: 2) {
+  .buttons a {
+    -webkit-background-size: 102px 30px;
+  }
+  .buttons .websiteButton {
+    background-image: url('../images/button-website@2x.png');
+  }
+  .buttons .appstoreButton {
+    background-image: url('../images/button-appstore@2x.png');
+  }
+}

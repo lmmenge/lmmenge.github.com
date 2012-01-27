@@ -1,0 +1,24 @@
+body {
+  margin: 16px;
+}
+
+.banner a {
+  height: 300px;
+}
+
+.small a {
+  height: 80px;
+}
+
+.undeadattackpinball {
+  background: #000 url('../undeadattackpinball/banner.jpg') no-repeat center;
+}
+
+.twisthelper {
+  background: #d0d0d0 url('../twisthelper/banner.jpg') no-repeat center;
+}
+
+.lucasmenge {
+  background: #252525 url('../LucasMenge.jpg') no-repeat top;
+  //width: 354px;
+}

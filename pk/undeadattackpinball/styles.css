@@ -1,0 +1,27 @@
+body {
+  background: #000;
+  color: #fff;
+}
+
+.container {
+  background: #731d67 url('tile.gif') 0px 2px;
+  max-width: 556px;
+  padding: 0px;
+}
+
+.headerBg {
+  background: url('header-bg.jpg') no-repeat top center;
+  padding: 10px;
+  padding-top: 175px;
+}
+
+.icon {
+  background-image: url('icon.png');
+}
+
+@media screen and (-webkit-device-pixel-ratio: 2) {
+  .icona {
+    background-image: url('icon@2x.png');
+    -webkit-background-size: 72px 72px;
+  }
+}
