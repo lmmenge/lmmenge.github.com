@@ -1,8 +1,9 @@
 body
 {
   background: #a5b5c3 url(images/layout/body-bg.gif) repeat-x;
-  font-family: "Trebuchet MS";
+  font-family: "Helvetica Neue", "Helvetica", "Trebuchet MS";
   font-size: 13px;
+  line-height: 140%;
   color: #000;
   text-align: center;
 }
@@ -311,6 +312,12 @@ p
 .blogPost h4
 {
   font-size: 12px;
+}
+.blogPost .quote
+{
+  margin: 20px;
+  color: #333;
+  font-style: italic;
 }
 
 .blogArchive
