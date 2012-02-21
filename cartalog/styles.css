@@ -1,0 +1,178 @@
+body
+{
+  background: #000;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 140%;
+  color: #000;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+a
+{
+  color: #626d77;
+}
+
+a:hover
+{
+}
+
+a:active
+{
+}
+
+a:visited
+{
+}
+
+img
+{
+  border: 0px;
+}
+
+h1, h2, h3, h4
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1
+{
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-weight: 100;
+  font-size: 60px;
+  line-height: 65px;
+  height: 80px;
+  letter-spacing: 3px;
+}
+
+p
+{
+  margin: 5px 0px 10px 0px;
+  padding: 0px;
+}
+
+.clear
+{
+  height: 1px;
+  overflow: hidden;
+  clear: both;
+}
+
+.content
+{
+  width: 874px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.content .header
+{
+  width: 874px;
+  height: 1005px;
+  margin-top:-190px;
+  background: url(bg-header.jpg) top center;
+  text-align: center;
+}
+.content .header .title
+{
+  padding-top: 195px;
+}
+.content .header .appstorebutton
+{
+  margin-top: -90px;
+}
+.content .interim
+{
+  float: left;
+  width: 874px;
+  margin-top: -80px;
+}
+.content .interim h1
+{
+  text-align: left;
+  margin-left: 114px;
+}
+.content .interim .appstorebutton
+{
+  float: right;
+  margin-right: 114px;
+  padding-bottom: 10px;
+}
+.content .body
+{
+  background: #e7e7e7 url(bg-tile.png) top center no-repeat;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+.content .body .appstorebutton
+{
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+.content .body .appstorebuttonright
+{
+  float: right;
+  padding-bottom: 10px;
+}
+.content .pad
+{
+  padding: 50px 114px 15px 114px;
+}
+.content .columnLeft
+{
+  width: 45%;
+  float: left;
+}
+.content .columnRight
+{
+  width: 45%;
+  float: right;
+}
+.content ul
+{
+  margin-top: 5px;
+  margin-left: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.content ul li
+{
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+}
+
+.content .video
+{
+  width: 640px;
+  height: 350px;
+  background: #000;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(video.jpg);
+}
+.content .video iframe
+{
+  margin-top: -5px;
+}
+
+.content .backLink
+{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.content .footer
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+}

@@ -241,7 +241,7 @@ p
 {
   overflow: hidden;
   margin-left: 26px;
-  margin-top: 88px;
+  margin-top: 96px;
   width: 230px;
   height: 346px;
 }
@@ -318,6 +318,10 @@ p
   margin: 20px;
   color: #333;
   font-style: italic;
+}
+.alignCenter
+{
+  text-align: center;
 }
 
 .blogArchive
