@@ -72,6 +72,11 @@ p
   padding: 15px;
 }
 
+ul
+{
+  list-style-type: none;
+}
+
 .header
 {
   text-align: center;
