@@ -1,0 +1,249 @@
+body
+{
+  background: #fff url(images/background.png) top center no-repeat;
+  background-size: 950px 800px;
+  font-family: "Helvetica Neue", "Helvetica", "Trebuchet MS";
+  font-size: 22px;
+  color: #000;
+  text-align: center;
+}
+
+a
+{
+  color: #626d77;
+}
+
+a:hover
+{
+}
+
+a:active
+{
+}
+
+a:visited
+{
+}
+
+img
+{
+  border: 0px;
+}
+
+h1, h2, h3, h4
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1
+{
+  font-size: 80px;
+  font-weight: normal;
+  margin-bottom: 98px;
+}
+h2
+{
+  font-size: 120px;
+  line-height: 90px;
+  margin-bottom: 5px;
+}
+h3
+{
+  font-size: 40px;
+}
+
+p
+{
+  margin: 5px 0px 10px 0px;
+  padding: 0px;
+}
+
+.content
+{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 1.4;
+}
+.content .pad
+{
+  padding: 15px;
+}
+
+.header
+{
+  text-align: center;
+  line-height: normal;
+  padding: 40px 0px 110px 0px;
+  background: url(images/close.png) 260px 230px no-repeat;
+  background-size: 350px 350px;
+  text-shadow: rgba(255,255,255,0.6) 0px 1px 1px;
+}
+.header .answer
+{
+  color: rgba(255,255,255,0.95);
+  text-shadow: rgba(0,0,0,0.6) 0px -1px 1px;
+}
+.header p
+{
+  font-size: 28px;
+  margin: 0px 0px 0px 0px;
+}
+.header .small
+{
+  font-size: 14px;
+}
+
+.rule
+{
+  clear: both;
+  margin: 40px 0px 40px 0px;
+  text-align: justify;
+  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position: 10px 70px;
+  background-size: 140px 140px;
+  background-size: 0px 0px;
+}
+
+.rule .ruleExplanation
+{
+  float: left;
+  width: 530px;
+  overflow: hidden;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.rule .ruleVeredict, .rule .ruleVeredictBad
+{
+  margin: 0px auto 0px auto;
+  background-size: 304px 127px;
+  background-repeat: no-repeat;
+  width: 304px;
+  height: 127px;
+  overflow: hidden;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  color: rgba(255,255,255,0.95);
+  text-shadow: rgba(0,0,0,0.6) 0px -1px 1px;
+  text-align: center;
+}
+.rule .ruleVeredict
+{
+  background-image: url(images/veredictgood.png);
+}
+.rule .ruleVeredictBad
+{
+  background-image: url(images/veredictbad.png);
+}
+.rule .ruleVeredict div, .rule .ruleVeredictBad div
+{
+  padding: 30px;
+}
+.rule .ruleVeredict .noExplanation, .rule .ruleVeredictBad .noExplanation
+{
+  padding: 42px;
+}
+.rule .ruleVeredict p, .rule .ruleVeredictBad p
+{
+  margin: 4px 0px 0px 0px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.rule .ruleExplanation ol
+{
+  text-align: left;
+}
+
+.rule .ruleExamples
+{
+  float: right;
+  width: 310px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.rule .ruleExamples ul
+{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 320px;
+}
+
+.rule .ruleExamples ul li
+{
+  float: left;
+  width: 87px;
+  height: 87px;
+  overflow: hidden;
+  margin: 5px 4px 9px 10px;
+  border-radius: 15px;
+}
+
+.rule .ruleExamples ul li img
+{
+  width: 87px;
+  height: 87px;
+}
+
+.localNotifications
+{
+  background-image: url(images/localnotifications.png)
+}
+
+.pushNotifications
+{
+  background-image: url(images/pushnotifications.png)
+}
+
+.rule10Seconds
+{
+  background-image: url(images/10second.png)
+}
+
+.rule10Minutes
+{
+  background-image: url(images/10minute.png)
+}
+
+.ruleAudio
+{
+  background-image: url(images/audio.png)
+}
+
+.ruleGeofence
+{
+  background-image: url(images/geofence.png)
+}
+
+.ruleVoIP
+{
+  background-image: url(images/voip.png)
+}
+
+.ruleGPS
+{
+  background-image: url(images/gps.png)
+}
+
+.footNote
+{
+  color: #292d31;
+  margin: 15px;
+  font-size: 11px;
+}
+
+.clear
+{
+  clear: both;
+  height: 1px;
+  overflow: hidden;
+}

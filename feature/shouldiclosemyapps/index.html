@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Should I Close My Apps?</title>
+		<meta name="Keywords" content="Menge.app, iOS, apps, multitasking, close, lucas, menge, should"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <!--<meta http-equiv="cache-control" content="max-age=300"/>-->
+    <meta http-equiv="cache-control" content="no-cache"/>
+    
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="icon" type="image/png" size="16x16" href="favicon.png" />
+	</head>
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-142480-4");
+    pageTracker._trackPageview();
+    } catch(err) {}
+  </script>
+	<body>
+		<div class="content"><div class="pad">
+      <div class="header">
+        <h1>SHOULD I<br/>CLOSE MY APPS?</h1>
+        <div class="answer">
+          <p>Short answer:</p>
+          <h2>NO</h2>
+          <p class="small">Except GPS Apps</p>
+        </div>
+      </div>
+      <p>
+        <b>It's all about battery life.</b> Running apps in the background can eat away precious amounts of battery.
+      </p>
+      <p>
+        In iOS, though, <b>most Apps aren't even running</b> in the background most of the time! When they're not running, they're simply <b>frozen</b>. They're loaded, just never running or eating battery.
+      </p>
+      <p>
+        Here's how Apps can fake being running in the background:
+      </p>
+      
+      <div class="rule localNotifications">
+        <div class="ruleExplanation">
+          <h3>Local Notifications</h3>
+          <p>
+            Apps can ask the OS to pop a notification at X time in the future <b>even if they're frozen</b> by then. They appear with the App's icon and everything, but come from the OS. If you slide or tap the notification, the App gets brought back from the fridge.
+          </p>
+        </div>
+        <div class="ruleExamples">
+          <div class="ruleVeredict">
+            <div>
+              Don't close!
+              <p>App won't even be running.</p>
+            </div>
+          </div>
+          <ul>
+            <li><a href="https://itunes.apple.com/us/app/wunderlist/id406644151?mt=8"><img src="icons/wunderlist.jpg" alt="Wunderlist"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/clear/id493136154?mt=8"><img src="icons/clear.jpg" alt="Clear"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/sleep-cycle-alarm-clock/id320606217?mt=8"><img src="icons/sleepcyclealarmclock.jpg" alt="Sleep Cycle alarm clock"/></a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      
+      <div class="rule pushNotifications">
+        <div class="ruleExplanation">
+          <h3>Push Notifications</h3>
+          <p>
+            Apps can arrange with their own services to <b>offload the work they'd be doing in the background to their servers</b> &mdash; like always being logged into IM services for you. This way the Apps can go to the fridge and stop eating your battery. Push notifications are how their services can notify you that there's new content for you.
+          </p>
+        </div>
+        <div class="ruleExamples">
+          <div class="ruleVeredict">
+            <div>
+              Don't close!
+              <p>App won't even be running.</p>
+            </div>
+          </div>
+          <ul>
+            <li><a href="https://itunes.apple.com/us/app/tweetbot-for-twitter-iphone/id428851691?mt=8"><img src="icons/tweetbot.jpg" alt="Tweetbot"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/im+/id285688934?mt=8"><img src="icons/im+.jpg" alt="IM+"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/whatsapp-messenger/id310633997?mt=8"><img src="icons/whatsapp.jpg" alt="WhatsApp"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/facebook-messenger/id454638411?mt=8"><img src="icons/facebookmessenger.jpg" alt="Facebook Messenger"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/kik-messenger/id357218860?mt=8"><img src="icons/kikmessenger.jpg" alt="Kik Messenger"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/gmail/id422689480?mt=8"><img src="icons/gmail.jpg" alt="GMail"/></a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      
+      <p>
+        But sometimes Apps <b>really</b> need some background time to do work for you.<br/>iOS allows them to do so following some pretty <b>strict rules</b>:
+      </p>
+      
+      <div class="rule rule10Seconds">
+        <div class="ruleExplanation">
+          <h3>10-second rule</h3>
+          <p>
+            By default all Apps in iOS, when "homed away" from, get 10 seconds and then they're frozen. <b>Most Apps are like this</b> &mdash; games in particular. This happens when they don't explicitly request any extra background time from the OS.
+          </p>
+        </div>
+        <div class="ruleExamples">
+          <div class="ruleVeredict">
+            <div>
+              Don't close!
+              <p>Very short background life.</p>
+            </div>
+          </div>
+          <ul>
+            <li><a href="https://itunes.apple.com/us/app/bad-piggies/id533451786?mt=8"><img src="icons/badpiggies.jpg" alt="Bad Piggies"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/wikipanion/id288349436?mt=8"><img src="icons/wikipanion.jpg" alt="Wikipanion"/></a></li>
+            <li><a href="https://itunes.apple.com/au/app/cartalog/id501779317?mt=8"><img src="icons/cartalog.jpg" alt="Cartalog"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/camera+/id329670577?mt=8"><img src="icons/camera+.jpg" alt="Camera+"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/flashlight-o/id381471023?mt=8"><img src="icons/flashlight.jpg" alt="Flashlight Ⓞ"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/itranslate-voice/id522626820?mt=8"><img src="icons/itranslatevoice.jpg" alt="iTranslate Voice"/></a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      
+      <div class="rule rule10Minutes">
+        <div class="ruleExplanation">
+          <h3>10-minute rule</h3>
+          <p>
+            An App can <b>request additional background time</b> the moment you "home away" from them. These Apps get 10 minutes and then they're frozen. Any App can do this, but most don't. Apps usually do this when they're finishing an upload or a download and if, by the time it reaches 10 minutes of background time, the App isn't done, it gets <b>punched in the face and thrown in the fridge</b>.
+          </p>
+          <p>
+            Apps that request extra background time usually do so to process or upload/download stuff. Fortunately <b>they are usually short-lived</b> and finish way before the 10-minute mark.
+          </p>
+        </div>
+        <div class="ruleExamples">
+          <div class="ruleVeredict">
+            <div>
+              Don't close!
+              <p>Short background life.</p>
+            </div>
+          </div>
+          <ul>
+            <li><a href="https://itunes.apple.com/us/app/instagram/id389801252?mt=8"><img src="icons/instagram.jpg" alt="Instagram"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/tweetbot-for-twitter-iphone/id428851691?mt=8"><img src="icons/tweetbot.jpg" alt="Tweetbot"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/instacast/id420368235?mt=8"><img src="icons/instacast.jpg" alt="Instacast"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/reeder/id325502379?mt=8"><img src="icons/reeder.jpg" alt="Reeder"/></a></li>
+            <li><a href="https://itunes.apple.com/app/instapaper/id288545208"><img src="icons/instapaper.jpg" alt="Instapaper"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/evernote/id281796108?mt=8"><img src="icons/evernote.jpg" alt="Evernote"/></a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      
+      <div class="rule ruleAudio">
+        <div class="ruleExplanation">
+          <h3>Audio rule</h3>
+          <p>
+            Audio Apps are allowed to remain running in the background <b>as long as they're playing audio</b>. Once paused, "homing away" from them freezes them.
+          </p>
+          <p>
+            These Apps usually only do audio when in the background. Sure, they can stay on for a long time, but your iPhone nowadays is rated at <b>40 hours of audio playback</b>. I wouldn't worry about these.
+          </p>
+          <p>
+            One exception to this rule is if the App streams audio from the internet like Pandora. If you're streaming audio, then you're using either cellular data or WiFi. <b>Streaming + audio simultaneously should bring you down to somewhere between 7 and 10 hours</b> on a battery charge depending on the quality of the stream and signal.
+          </p>
+        </div>
+        <div class="ruleExamples">
+          <div class="ruleVeredict">
+            <div>
+              Don't close!
+              <p>Pause the music.</p>
+            </div>
+          </div>
+          <ul>
+            <li><a href="https://itunes.apple.com/gb/app/garageband/id408709785?mt=8"><img src="icons/garageband.jpg" alt="Garageband"/></a></li>
+            <li><a href="https://itunes.apple.com/gb/app/spotify/id324684580?mt=8"><img src="icons/spotify.jpg" alt="Spotify"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/podcasts/id525463029?mt=8"><img src="icons/podcasts.jpg" alt="Podcasts"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/pandora-radio/id284035177?mt=8"><img src="icons/pandoraradio.jpg" alt="Pandora Radio"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/instacast/id420368235?mt=8"><img src="icons/instacast.jpg" alt="Instacast"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/iheartradio-for-ipad/id402300086?mt=8"><img src="icons/iheartradio.jpg" alt="iHeartRadio"/></a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      
+      <div class="rule ruleGeofence">
+        <div class="ruleExplanation">
+          <h3>Geofence rule</h3>
+          <p>
+            Geofence Apps stay on-and-off in the background. Whenever your device finds its location has changed significantly, it calls up the App for it to do it's background magic. The App gets a little time and then it's back in the fridge.
+          </p>
+          <p>
+            Using a geofence <b>doesn't necessarily use the GPS</b> on your device, <b>but it might</b> have to, if you have little to no cell signal where you are. These Apps will incur some battery hit while using a geofence, but it's low enough that <b>might be very worthwhile</b> to some people.
+          </p>
+          <p>
+            If you don't want these Apps eating away at your battery, you should <b>disable their geofence features</b> in the App, otherwise everytime the App is run, its geofence will get set up and start eating away at your battery again. Closing it won't help.
+          </p>
+        </div>
+        <div class="ruleExamples">
+          <div class="ruleVeredict">
+            <div>
+              Don't close!
+              <p>Disable geofenced actions.</p>
+            </div>
+          </div>
+          <ul>
+            <li><a href="https://itunes.apple.com/us/app/square-wallet/id455018546?mt=8"><img src="icons/squarewallet.jpg" alt="Square Wallet"/></a></li>
+            <li><a href="https://itunes.apple.com/app/instapaper/id288545208"><img src="icons/instapaper.jpg" alt="Instapaper"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/google-latitude/id306586497?mt=8"><img src="icons/googlelatitude.jpg" alt="Google Latitude"/></a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      
+      <div class="rule ruleVoIP">
+        <div class="ruleExplanation">
+          <h3>VoIP rule</h3>
+          <p>
+            VoIP Apps are allowed to remain running in the background <b>as long as they're connected</b> to their services. Once disconnected, "homing away" from them freezes them.
+          </p>
+          <p>
+            This will hurt your battery because these apps will keep <b>extra data connections open</b> in order to keep you signed on.
+          </p>
+        </div>
+        <div class="ruleExamples">
+          <div class="ruleVeredict">
+            <div>
+              Don't close!
+              <p>Sign-off instead.</p>
+            </div>
+          </div>
+          <ul>
+            <li><a href="https://itunes.apple.com/us/app/skype/id304878510?mt=8"><img src="icons/skype.jpg" alt="Skype"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/fring/id290948830?mt=8"><img src="icons/fring.jpg" alt="Fring"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/tango-voice-video-and-text/id372513032?mt=8"><img src="icons/tango.jpg" alt="Tango"/></a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      
+      <div class="rule ruleGPS">
+        <div class="ruleExplanation">
+          <h3>GPS rule</h3>
+          <p>
+            GPS Apps get to be in the <b>background all the time</b> in order to provide proper directions to the user. These usually <b>need to be closed</b> (either from the App itself or from the Multitasking Tray) in order to stop running in the background.
+          </p>
+          <p>
+            Using the GPS radio is one of the <b>most power-hungry things</b> you can do on your device. Think of it this way: it's talking to a freaking satellite in space!
+          </p>
+        </div>
+        <div class="ruleExamples">
+          <div class="ruleVeredictBad">
+            <div class="noExplanation">
+              CLOSE!
+            </div>
+          </div>
+          <ul>
+            <li><a href="https://itunes.apple.com/us/app/motionx-gps-drive/id328095974?mt=8"><img src="icons/motionx.jpg" alt="MotionX GPS Drive"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/waze-social-gps-traffic-gas/id323229106?mt=8"><img src="icons/waze.jpg" alt="Waze"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/garmin-u.s.a./id435490305?mt=8"><img src="icons/garmin.jpg" alt="Garmin"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/tomtom-u.s.a./id343289842?mt=8"><img src="icons/tomtom.jpg" alt="TomTom"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/navigon-usa/id384680007?mt=8"><img src="icons/navigon.jpg" alt="Navigon"/></a></li>
+            <li><a href="https://itunes.apple.com/us/app/gps-navigation-2-skobbler/id370144231?mt=8"><img src="icons/gpsnavigation2.jpg" alt="GPS Navigation 2"/></a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      
+      <p>
+        That's basically it! Apps <b>do</b> get some background time, but they're <b>fiercely controlled</b>.
+      </p>
+      <p>
+        More important than worrying about what is doing work in the background, is to worry about what <b>you do</b> that consumes more or less battery.<br/>In a rough order <b>from most to less power-hungry</b>:
+      </p>
+      <ol>
+        <li><b>GPS</b> localization</li>
+        <li>Very <b>bright screen</b> on for long periods</li>
+        <li><b>Cellular</b> data transfers</li>
+        <li><b>WiFi</b> data transfers</li>
+        <li>Being in <b>bad cellular coverage</b></li>
+        <li><b>Video</b> playback</li>
+        <li><b>Audio</b> playback</li>
+      </ol>
+      
+      <p>
+        Hope it helps! Don't forget to check out my app: <a href="http://cartalogapp.com">Cartalog</a>
+      </p>
+      
+    </div></div>
+    <div class="footNote">
+      &copy; Copyright 2012, Lucas Menge
+    </div>
+	</body>
+</html>
