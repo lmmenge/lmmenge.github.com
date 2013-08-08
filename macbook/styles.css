@@ -80,13 +80,13 @@ p {
   text-align: left;
 }
 
-.picture600, .picture700 {
+.picture600, .picture700, .pictures {
   border-radius: 5px;
   box-shadow: 0px 1px 3px #bbb;
   margin-bottom: 10px;
   overflow: hidden;
 }
-.picture600 img, .picture700 img {
+.picture600 img, .picture700 img, .pictures img {
   float: left;
 }
 .picture600 {
@@ -94,6 +94,9 @@ p {
 }
 .picture700 {
   height: 1560px;
+}
+.pictures {
+  height: 1210px;
 }
 
 .content {
