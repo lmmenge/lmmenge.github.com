@@ -1,0 +1,237 @@
+body
+{
+  background: #fff url('bg.png') repeat-x;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+a
+{
+  color: #1072bc;
+}
+
+a:hover
+{
+}
+
+a:active
+{
+}
+
+a:visited
+{
+}
+
+img
+{
+  border: 0px;
+}
+
+h1, h2, h3, h4
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1
+{
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: left;
+  font-weight: 100;
+  font-size: 60px;
+  line-height: 65px;
+  height: 80px;
+  letter-spacing: 3px;
+}
+
+h2
+{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+p
+{
+  margin: 5px 0px 10px 0px;
+  padding: 0px;
+}
+
+.clear
+{
+  height: 1px;
+  overflow: hidden;
+  clear: both;
+}
+
+.content
+{
+	width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  overflow: hidden;
+}
+.content .header .hLeft
+{
+	width: 152px;
+	margin-left: 240px;
+	margin-top: 72px;
+	float: left;
+}
+.content .header .hRight
+{
+	width: 192px;
+	height: 401px;
+	margin-left: 75px;
+	float: left;
+	overflow: hidden;
+	background: url('device.png');
+	background-size: 192px 401px;
+}
+.content .header .hRight video
+{
+	margin-left: 2px;
+	margin-top: 60px;
+  width: 160px;
+  height: 284px;
+}
+.content .header
+{
+  width: 900px;
+  padding-top: 36px;
+  text-align: center;
+}
+.content .header .title
+{
+	height: 190px;
+	margin-bottom: 10px;
+}
+.content .header .title img
+{
+	width: 152px;
+}
+.content .interim
+{
+  float: left;
+  width: 900px;
+}
+.content .interim h1
+{
+  text-align: left;
+  margin-left: 114px;
+}
+.appstorebutton img
+{
+	width: 152px;
+}
+.content .interim .appstorebutton
+{
+  float: right;
+  margin-right: 114px;
+  padding-bottom: 10px;
+}
+.content .body
+{
+  line-height: 22px;
+  color: #333;
+}
+.content .body .appstorebutton
+{
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+.content .body .appstorebuttonright
+{
+  float: right;
+  padding-bottom: 10px;
+}
+.content .pad
+{
+  padding: 50px 0px 15px 0px;
+}
+.content .columnLeft
+{
+  width: 45%;
+  float: left;
+}
+.content .columnRight
+{
+  width: 45%;
+  float: right;
+}
+.content ul
+{
+  margin-top: 5px;
+  margin-left: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.content ul li
+{
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+}
+
+.content .video
+{
+  width: 640px;
+  height: 350px;
+  background: #000;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(video.jpg);
+}
+.content .video iframe
+{
+  margin-top: -5px;
+}
+
+.featureBox
+{
+	float: left;
+	width: 280px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 20px;
+	margin-right: 30px;
+}
+.featureBox img
+{
+	width: 60px;
+	height: 60px;
+	margin-bottom: 5px;
+}
+.thirdBox
+{
+	margin-right: 0px;
+}
+.fourthBox
+{
+	margin-left: 310px;
+}
+
+.content .backLink
+{
+  text-align: center;
+  color: #ccc;
+  margin: 10px 0px 5px 0px;
+}
+
+.content .footer
+{
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+}

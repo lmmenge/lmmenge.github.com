@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Save My Files</title>
+		
+    <meta name="Keywords" content="Lucas, Menge, Save My Files, Download, iPad, iPhone"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="cache-control" content="max-age=300"/>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="styles-1024.css" media="(max-device-width: 1024px) and (min-device-width: 768px)"/>
+    <link rel="stylesheet" type="text/css" href="styles-320.css" media="(max-device-width: 640px)"/>-->
+    <!--<meta name="viewport" content="width=device-width"/>-->
+    <link rel="icon" type="image/png" size="16x16" href="favicon.png"/>
+    <script type="text/javascript">
+	    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+	  <script type="text/javascript">
+	    try {
+	      var pageTracker = _gat._getTracker("UA-142480-4");
+	      pageTracker._trackPageview();
+	    } catch(err) {}
+    </script>
+  </head>
+	<body onload="didLoad()">
+		<div class="boundaries"><div class="content">
+      <div class="header">
+      	<div class="hLeft">
+	        <div class="title"><img src="title.png" alt="Save My Files"/></div>
+	        <div class="appstorebutton"><a href="#"><img src="appstore-soon.png" alt="Available on the App Store"/></a></div>
+        </div>
+        <div class="hRight">
+        	<video id="vidObj" width="160" height="284" autoplay="autoplay" controls loop="loop" poster="screen1s.png">
+					  <source src="movie.mp4" type="video/mp4"/>
+					  <!--<source src="movie.ogv" type="video/ogg">-->
+					  <!--<source src="movie.webm" type="video/webm">-->
+					</video> 
+					<script type="text/javascript">
+						function didLoad()
+						{
+							var ua = navigator.userAgent;
+							var addControls = false;
+							if(ua.indexOf("iPad") >= 0
+								|| ua.indexOf("iPhone") >= 0
+								|| ua.indexOf("iPod") >= 0)
+								addControls = true;
+							var v = document.getElementById("vidObj");
+							if(addControls == true)
+							{
+								v.controls = "true";
+								v.addEventListener("play", didPlay, false);
+							}
+							else
+							{
+								v.controls = "";
+							}
+						}
+
+						function didPlay()
+						{
+							document.getElementById("vidObj").controls = "";
+						}
+					</script>
+        </div>
+      </div>
+      <!--<div class="interim">
+        <div class="appstorebutton"><a href="#"><img src="appstore.png" alt="Available on the App Store"/></a></div>
+        <h1>See it in action</h1>
+        <div class="video"><iframe width="640" height="350" src="http://www.youtube.com/embed/H9a9qPUHOW0" frameborder="0" allowfullscreen></iframe></div>
+      </div>-->
+      <div class="body">
+        <div class="clear"></div>
+        <div class="pad">
+          <div class="featureBox">
+          	<img src="download.png" alt="Download"/>
+          	<h2>Download from the open web</h2>
+          	<p>
+          		Getting files into your iOS device is easy: Just past in the link and you're off!
+          	</p>
+          </div>
+          <div class="featureBox secondBox">
+          	<img src="see.png" alt="See"/>
+          	<h2>See your content</h2>
+          	<p>
+          		Open your files with built in Pictures, Music and Video viewers.
+          	</p>
+          </div>
+          <div class="featureBox thirdBox">
+          	<img src="share.png" alt="Share"/>
+          	<h2>Share your files</h2>
+          	<p>
+          		Send files through email or copy through iTunes easily.
+          	</p>
+          </div>
+          <div class="featureBox fourthBox">
+          	<img src="manage.png" alt="Manage"/>
+          	<h2>Manage</h2>
+          	<p>
+          		Organize your files by renaming or send them off to other Apps if you have to.
+          	</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="backLink">
+        	<a href="/">Menge.app</a> • <a href="http://www.twitter.com/lmmenge">@lmmenge on Twitter</a> • <a href="mailto:l.m.menge@gmail.com">Support email</a>
+      	</div>
+        <div class="footer">
+          &copy; 2013 Lucas Mendes Menge
+        </div>
+      </div>
+    </div></div>
+	</body>
+</html>

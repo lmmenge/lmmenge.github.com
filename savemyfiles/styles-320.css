@@ -1,0 +1,33 @@
+body
+{
+  width: 640px;
+  background: green;
+}
+.content
+{
+	background: yellow;
+	width: 590px;
+}
+.content .header
+{
+	width: 590px;
+}
+
+.content .header .hLeft
+{
+	margin-left: 85px;
+}
+
+.secondBox
+{
+	margin-right: 0px;
+}
+.thirdBox
+{
+	margin-right: 30px;
+}
+.fourthBox
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
