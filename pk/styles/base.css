@@ -1,5 +1,5 @@
 body {
-  background-color: #cbccce;
+  background-color: #777;
   font-family: "Helvetica Neue";
   font-size: 13px;
   padding: 0px;
@@ -19,6 +19,7 @@ img {
 
 .container {
   overflow: hidden;
+  max-width: 984px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -31,6 +32,7 @@ img {
   -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   background-color: #aaa;
   background-position: top left;
+  overflow: hidden;
 }
 
 .banner a {
@@ -51,6 +53,6 @@ img {
 
 .footer {
   margin: 4px;
-  color: #505050;
-  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  color: #c0c0c0;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
 }

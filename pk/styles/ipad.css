@@ -10,15 +10,45 @@ body {
   height: 80px;
 }
 
-.undeadattackpinball {
-  background: #000 url('../undeadattackpinball/banner.jpg') no-repeat center;
+.cartalog {
+  background: #d0d0d0 url('../cartalog/banner.jpg') no-repeat center;
+}
+
+.savemyfiles {
+  background: #d0d0d0 url('../savemyfiles/banner.jpg') no-repeat center;
 }
 
 .twisthelper {
   background: #d0d0d0 url('../twisthelper/banner.jpg') no-repeat center;
 }
 
+.undeadattackpinball {
+  background: #000 url('../undeadattackpinball/banner.jpg') no-repeat center;
+}
+
 .lucasmenge {
   background: #252525 url('../LucasMenge.jpg') no-repeat top;
   //width: 354px;
+}
+
+@media screen and (-webkit-device-pixel-ratio: 2) {
+	.cartalog {
+    -webkit-background-size: 1000px 300px;
+    background-image: url('../cartalog/banner@2x.jpg');
+  }
+
+  .savemyfiles {
+    -webkit-background-size: 1000px 300px;
+    background-image: url('../savemyfiles/banner@2x.jpg');
+  }
+
+  .twisthelper {
+    -webkit-background-size: 1000px 300px;
+    background-image: url('../twisthelper/banner@2x.jpg');
+  }
+  
+  .lucasmenge {
+    -webkit-background-size: 500px 80px;
+    background-image: url('../LucasMenge@2x.jpg');
+  }
 }

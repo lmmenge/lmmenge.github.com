@@ -1,0 +1,18 @@
+body {
+  background: #c1cbd4 url('background.gif') repeat-x top;
+}
+
+.container {
+  background: url('header.png') no-repeat top left;
+}
+
+.icon {
+  background-image: url('icon.png');
+}
+
+@media screen and (-webkit-device-pixel-ratio: 2) {
+  .icon {
+    background-image: url('icon@2x.png');
+    -webkit-background-size: 72px 72px;
+  }
+}

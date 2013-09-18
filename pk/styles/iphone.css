@@ -2,6 +2,11 @@ body {
   margin: 4px;
 }
 
+.container
+{
+  max-width: 500px;
+}
+
 .banner a {
   height: 180px;
 }
@@ -14,12 +19,20 @@ body {
   float: none;
 }
 
-.undeadattackpinball {
-  background: #000 url('../undeadattackpinball/banner.jpg') no-repeat center;
+.cartalog {
+  background: url('../cartalog/banner-small.jpg') no-repeat center;
+}
+
+.savemyfiles {
+  background: url('../savemyfiles/banner-small.jpg') no-repeat center;
 }
 
 .twisthelper {
   background: url('../twisthelper/banner-small.jpg') no-repeat center;
+}
+
+.undeadattackpinball {
+  background: #000 url('../undeadattackpinball/banner.jpg') no-repeat center;
 }
 
 .lucasmenge {
@@ -27,6 +40,16 @@ body {
 }
 
 @media screen and (-webkit-device-pixel-ratio: 2) {
+  .cartalog {
+    -webkit-background-size: 500px 180px;
+    background-image: url('../cartalog/banner-small@2x.jpg');
+  }
+
+  .savemyfiles {
+    -webkit-background-size: 500px 180px;
+    background-image: url('../savemyfiles/banner-small@2x.jpg');
+  }
+
   .twisthelper {
     -webkit-background-size: 500px 180px;
     background-image: url('../twisthelper/banner-small@2x.jpg');
