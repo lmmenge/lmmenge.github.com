@@ -1,10 +1,14 @@
 body {
   font-family: "Helvetica Neue";
-  font-size: 16px;
   font-size: 13px;
   padding: 0px;
   margin: 0px;
   -webkit-text-size-adjust: none;
+}
+
+a, a:visited, a:active
+{
+  color: #0073b7;
 }
 
 img {
@@ -42,13 +46,14 @@ ul {
   margin-right: 10px;
   width: 72px;
   height: 72px;
-  -webkit-box-shadow: 0px 2px 3px rgba(0,0,0, 0.45);
-  -webkit-border-radius: 11px;
-  border-radius: 11px;
+  box-shadow: 0px 2px 3px rgba(0,0,0, 0.45);
+  border-radius: 12px;
+  border-radius: 12px;
 }
 
 .header .logo {
   margin-top: 6px;
+  max-height: 30px;
 }
 
 .header div.logo {
@@ -75,6 +80,27 @@ ul {
 }
 .screenshots li img {
   padding-top: 10px;
+}
+.iphoneScreens img
+{
+  max-width: 300px;
+}
+
+@media screen and (max-device-width: 480px) {
+  .ipadScreens img
+  {
+    max-width: 300px;
+  }
+}
+@media screen and (min-device-width: 768px) {
+  .ipadScreens img
+  {
+    max-width: 600px;
+  }
+  body
+  {
+    font-size: 16px;
+  }
 }
 
 .video {
@@ -104,13 +130,13 @@ ul {
   background: url('../images/button-website.png') no-repeat;
 }
 @media screen and (-webkit-device-pixel-ratio: 2) {
-  .buttons a {
-    -webkit-background-size: 102px 30px;
-  }
   .buttons .websiteButton {
     background-image: url('../images/button-website@2x.png');
   }
   .buttons .appstoreButton {
     background-image: url('../images/button-appstore@2x.png');
+  }
+  .buttons .websiteButton, .buttons .appstoreButton {
+    background-size: 102px 30px;
   }
 }

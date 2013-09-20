@@ -1,9 +1,9 @@
 body {
-  background: #c1cbd4 url('background.gif') repeat-x top;
+  background: #fff url('bg.png') repeat-x top;
 }
 
 .container {
-  background: url('header.png') no-repeat top left;
+  
 }
 
 .icon {
