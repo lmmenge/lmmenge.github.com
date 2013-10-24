@@ -163,20 +163,14 @@ p
 .contentColumn
 {
   float: left;
-  width: 670px;
+  width: 650px;
 }
 .tweetsColumn
 {
   float: right;
-  width: 200px;
+  width: 220px;
 }
-#twitter_update_list
-{
-  list-style-type: none;
-  margin: 15px 0px 0px 0px;
-  padding: 0px;
-}
-#twitter_update_list li
+.tweetsColumn h2
 {
   margin-bottom: 10px;
 }
