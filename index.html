@@ -5,7 +5,7 @@ title: Home
 
 <div class="contentColumn">
   <h2>Latest Release</h2>
-  {% assign first_post = site.categories.Releases.first %}
+  {% assign first_post = site.categories.releases.first %}
   {% if first_post %}
   <div class="blogPost">
     <h3><a href="{{ first_post.url }}">{{ first_post.title }}</a> <span> - {{ first_post.date | date_to_string }}</span></h3>
@@ -18,6 +18,12 @@ title: Home
 
   <h2>Latest Blog post</h2>
   {% assign first_post = site.posts.first %}
+  {% for post in site.posts %}
+  {% if post.category != "Releases" %}
+  {% assign first_post = post %}
+  {% break %}
+  {% endif %}
+  {% endfor %}
   {% if first_post %}
   <div class="blogPost">
     <h3><a href="{{ first_post.url }}">{{ first_post.title }}</a> <span> - {{ first_post.date | date_to_string }}</span></h3>
