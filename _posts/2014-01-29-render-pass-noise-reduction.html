@@ -1,0 +1,35 @@
+---
+layout: post
+title: Render Pass Noise Reduction
+author: Lucas Menge
+category: Misc
+---
+
+<p>
+  Over the past few weeks, I've been working on 3D renders of an apartment that I'll be moving into later this year. One of the most interesting developments I've seen lately regarding 3D rendering has been the Cycles renderer: it is an unbiased renderer for Blender that, if possible, will use your video card to accelerate rendering.
+</p>
+<p>
+  To me, Cycles has one huge drawback: It takes a long time to get a noise-free render out. Especially because none of the computers in my house have video cards that are Cycles-compatible. As a result, a 100-sample 1080p image of my apartment project takes 45 minutes to render, and at 100 samples it is incredibly noisy. So I thought: what can I do to make me have to wait less in order to see a noise-free – or near noise free – image of my project?
+</p>
+<p>
+  Enter the <a href="https://github.com/lmmenge/RPNR">Render Pass Noise Reduction project</a>. While most noise reduction algorithms mostly "blur" entire images, RPNR will take various render passes and use them in special ways to determine individual surfaces and places in the render where we shouldn't really apply noise reduction. I think it is pretty decent and helps me get those 100-sample interior renders to look good for previewing! Here are some samples:
+</p>
+<p class="alignCenter">
+  <img src="https://github.com/lmmenge/RPNR/raw/master/samples/preview1.png" alt="Sample 1"/><br/>
+  356p image rendered at 100 samples. Unfiltered and filtered
+</p>
+<p class="alignCenter">
+  <img src="https://github.com/lmmenge/RPNR/raw/master/samples/preview2.png" alt="Sample 2"/><br/>
+  2x 356p image rendered at 100 samples and stacked. Unfiltered and filtered
+</p>
+<p class="alignCenter">
+  <img src="https://github.com/lmmenge/RPNR/raw/master/samples/preview3.png" alt="Sample 3"/><br/>
+  Crop of 1080p image rendered at 100 samples. Unfiltered and filtered
+</p>
+<p class="alignCenter">
+  <img src="https://github.com/lmmenge/RPNR/raw/master/samples/preview4.png" alt="Sample 4"/><br/>
+  Same 1080p image rendered at 100 samples, then reduced to 33%. Unfiltered and filtered
+</p>
+<p>
+  If you like what you see, head over to the <a href="https://github.com/lmmenge/RPNR">Project page on GitHub</a> and check it out. There is an Xcode project included and an OS X binary pre-built. The project is distributed under a BSD license.
+</p>
