@@ -1,0 +1,35 @@
+@import url(http://images.apple.com/ac/globalheader/1.0/styles/globalheader.css);
+@media only screen and (max-device-width: 767px) {
+	#globalheader[lang="en-002"] .gh-menu-icon-toggle,
+	#globalheader[lang="fr-002"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-AL"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-AM"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-BN"] .gh-menu-icon-toggle,
+	#globalheader[lang="it-CH"] .gh-menu-icon-toggle,
+	#globalheader[lang="el-CY"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-EM"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-GU"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-IS"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-LB"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-LK"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-MD"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-ME"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-MK"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-MN"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-MO"] .gh-menu-icon-toggle,
+	#globalheader[lang="zh-MO"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-PH"] .gh-menu-icon-toggle,
+	#globalheader[lang="en-VN"] .gh-menu-icon-toggle,
+	#globalheader[lang="es-US"] .gh-menu-icon-toggle {
+		display:none;
+	}
+}
+#globalheader[lang="ru-RU"] .gh-search-input-wrapper .gh-search-input::-webkit-input-placeholder {
+    font-size:0.9em;
+}
+#globalheader[lang="ru-RU"] .gh-search-input-wrapper .gh-search-input::-moz-placeholder {
+    font-size:0.9em; 
+}
+#globalheader[lang="ru-RU"] .gh-search-input-wrapper .gh-search-input::-ms-input-placeholder {
+	font-size:0.9em; 
+}
